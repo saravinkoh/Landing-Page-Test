@@ -10,22 +10,24 @@
 <body>
     <div class="headercontainer">
         <div class="header">
-            <img src="./logo.jpg" alt="watch logo">
-            <ul class="headerlinks">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <img id="watchlogo" src="./logo.jpg" alt="watch logo">
+            <div class="toprightlinks">
+                <ul class="headerlinks">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </div>
     
         <div class="herocontainer">
             <div class="herotext">
                 <h1>Watches by AAL</h1>
                 <h2>Seiko Omega Rolex Tudor Breitling Hamilton Tissot Swatch Casio Orient Cartier Timex Hublot Vacheron Constantin</h2>
-                <button>Buy now</button>
+                <button id="buynow">Buy now</button>
             </div>
             <div class="heroimage">
-                <img src="./heroimg.jpg" alt="watch image">
+                <img id="heroimg" src="./heroimg.jpg" alt="watch image">
             </div>
         </div>
     </div>
@@ -33,18 +35,22 @@
     <div class="informationcontainer">
         <h1>Popular Watches</h1>
         <div class="popularwatchesbox">
-            <div class="popularwatchespics">
-                <img src="./hamilton.jpg" alt="hamilton watch">
-                <img src="./omega.jpg" alt="omega watch">
-                <img src="./rolex.jpg" alt="rolex watch">
-                <img src="./swatch.jpg" alt="swatch watch">
-            </div>
-            <div class="watchdescription">
-                <p>Best of the best</p>
-                <p>It's alright</p>
-                <p>Be Ibiza meme</p>
-                <p>Bioceramic is plastic</p>
-            </div>
+                <div class="hamiltonw">
+                    <img id ="hamilton" src="./hamilton.jpg" alt="hamilton watch">
+                    <span class="caption">Best of the best</span>
+                </div>
+                <div class="omegaw">
+                    <img id ="omega" src="./omega.jpg" alt="omega watch">
+                    <span class="caption">It's alright</span>
+                </div>
+                <div class="rolexw">
+                    <img id ="rolex" src="./rolex.jpg" alt="rolex watch">
+                    <span class="caption">Be Ibiza meme</span>
+                </div>
+                <div class="swatchw">
+                    <img id ="swatch" src="./swatch.jpg" alt="swatch watch">
+                    <span class="caption">Moon moon</span>
+                </div>
         </div>
     </div>
 
@@ -70,7 +76,7 @@
     </div>
 
     <div class="footer">
-        <h1>Copyright AAL 1994</h1>
+        <h5>Copyright AAL 1994</h5>
     </div>
 </body>
 </html>

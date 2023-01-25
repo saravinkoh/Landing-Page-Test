@@ -1,3 +1,115 @@
-img {
+body {
+    margin: auto;
+}
+
+#watchlogo {
+    width: 100px;
+}
+#heroimg {
     width: 300px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headercontainer {
+    background-color: #1F2937;
+}
+
+.herocontainer {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.herotext {
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 400px;
+}
+
+#buynow {
+    color: white;
+    background-color: #3882F6;
+    width: 200px;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.informationcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#hamilton, #omega, #rolex, #swatch {
+    width: 100px;
+    height: 100px;
+}
+
+.popularwatchesbox {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.caption {
+    display: block;
+    text-align: center;
+}
+
+.quotecontainer {
+    display: flex;
+    padding: 30px;
+    background-color: #E5E7EB;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.quote {
+    width: 800px;
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
+    width: 300px;
+    text-align: center;
+}
+
+.newslettercontainer {
+    background-color: #3882F6;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #1F2937;
+    height: 40px;
 }
